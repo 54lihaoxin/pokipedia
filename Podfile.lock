@@ -1,0 +1,21 @@
+PODS:
+  - PokipediaFoundation (0.0.1)
+
+DEPENDENCIES:
+  - PokipediaFoundation (from `https://github.com/54lihaoxin/pokipedia_foundation.git`)
+
+EXTERNAL SOURCES:
+  PokipediaFoundation:
+    :git: https://github.com/54lihaoxin/pokipedia_foundation.git
+
+CHECKOUT OPTIONS:
+  PokipediaFoundation:
+    :commit: a0765eac95689001e09a41c8df6d7918c7f31c7f
+    :git: https://github.com/54lihaoxin/pokipedia_foundation.git
+
+SPEC CHECKSUMS:
+  PokipediaFoundation: fb00879d582585c5bb7d9a868c72920001fe2266
+
+PODFILE CHECKSUM: 0a68fa6c3b3f894671ba36a2f676274489d3f9b7
+
+COCOAPODS: 1.5.3
