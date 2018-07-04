@@ -13,13 +13,11 @@ import PokipediaFoundation
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     let window = UIWindow(frame: UIScreen.main.bounds)
+    let mainSceneController = PokemonListSceneController()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        
-        window.rootViewController = UIViewController(nibName: nil, bundle: nil)
+        window.rootViewController = mainSceneController.navigationController
         window.makeKeyAndVisible()
-        
         return true
     }
 }
