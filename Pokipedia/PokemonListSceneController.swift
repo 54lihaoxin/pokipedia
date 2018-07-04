@@ -9,7 +9,7 @@
 import PokipediaFoundation
 import UIKit
 
-class PokemonListSceneController: NavigatingSceneController {
+final class PokemonListSceneController: NavigatingSceneController {
     
     var viewController: UIViewController {
         return _vc

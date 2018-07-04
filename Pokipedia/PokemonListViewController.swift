@@ -13,7 +13,7 @@ protocol PokemonListViewControllerDelegate: class {
     func selectPokemon(_ pokemon: Pokemon)
 }
 
-class PokemonListViewController: UIViewController {
+final class PokemonListViewController: UIViewController {
     
     fileprivate let pokemons: [Pokemon]
     fileprivate unowned let delegate: PokemonListViewControllerDelegate

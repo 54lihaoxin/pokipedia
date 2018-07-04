@@ -9,7 +9,7 @@
 import PokipediaFoundation
 import UIKit
 
-class PokemonListCollectionViewCell: UICollectionViewCell {
+final class PokemonListCollectionViewCell: UICollectionViewCell {
     
     static let reuseIdentifier = "PokemonListCollectionViewCell"
 

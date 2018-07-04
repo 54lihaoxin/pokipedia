@@ -10,7 +10,7 @@ import UIKit
 import PokipediaFoundation
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+final class AppDelegate: UIResponder, UIApplicationDelegate {
 
     let window = UIWindow(frame: UIScreen.main.bounds)
     let mainSceneController = PokemonListSceneController()
