@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AC31989B20E9A59000A6E741 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC31989A20E9A59000A6E741 /* AppDelegate.swift */; };
-		AC3198A020E9A59000A6E741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC31989E20E9A59000A6E741 /* Main.storyboard */; };
 		AC3198A220E9A59200A6E741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3198A120E9A59200A6E741 /* Assets.xcassets */; };
 		AC3198A520E9A59200A6E741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3198A320E9A59200A6E741 /* LaunchScreen.storyboard */; };
 		AC3198B020E9A59200A6E741 /* PokipediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3198AF20E9A59200A6E741 /* PokipediaTests.swift */; };
@@ -31,7 +30,6 @@
 		752B3ECD97BE9B16B25A62B8 /* Pods_PokipediaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokipediaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC31989720E9A59000A6E741 /* Pokipedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokipedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC31989A20E9A59000A6E741 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC31989F20E9A59000A6E741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC3198A120E9A59200A6E741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC3198A420E9A59200A6E741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC3198A620E9A59200A6E741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				AC31989A20E9A59000A6E741 /* AppDelegate.swift */,
-				AC31989E20E9A59000A6E741 /* Main.storyboard */,
 				AC3198A320E9A59200A6E741 /* LaunchScreen.storyboard */,
 				AC3198A120E9A59200A6E741 /* Assets.xcassets */,
 				AC3198A620E9A59200A6E741 /* Info.plist */,
@@ -204,7 +201,6 @@
 			files = (
 				AC3198A520E9A59200A6E741 /* LaunchScreen.storyboard in Resources */,
 				AC3198A220E9A59200A6E741 /* Assets.xcassets in Resources */,
-				AC3198A020E9A59000A6E741 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,14 +280,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AC31989E20E9A59000A6E741 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC31989F20E9A59000A6E741 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AC3198A320E9A59200A6E741 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
