@@ -10,11 +10,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   PokipediaFoundation:
-    :commit: a0765eac95689001e09a41c8df6d7918c7f31c7f
+    :commit: 249b88e5ee078da2867288f839adc3232e474b42
     :git: https://github.com/54lihaoxin/pokipedia_foundation.git
 
 SPEC CHECKSUMS:
-  PokipediaFoundation: fb00879d582585c5bb7d9a868c72920001fe2266
+  PokipediaFoundation: 68a1c41db9eda08158544749c1b7f22f6fdf0ec1
 
 PODFILE CHECKSUM: 0a68fa6c3b3f894671ba36a2f676274489d3f9b7
 
