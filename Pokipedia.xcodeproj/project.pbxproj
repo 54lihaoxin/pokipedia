@@ -92,15 +92,6 @@
 			name = PokemonList;
 			sourceTree = "<group>";
 		};
-		AC0FE46620ECAD5900D73AD8 /* AppExtensions */ = {
-			isa = PBXGroup;
-			children = (
-				AC0FE46220ECA68800D73AD8 /* NSObject+AppExtensions.swift */,
-				AC0FE46420ECAA2E00D73AD8 /* UIView+AppExtensions.swift */,
-			);
-			path = AppExtensions;
-			sourceTree = "<group>";
-		};
 		AC31988E20E9A59000A6E741 = {
 			isa = PBXGroup;
 			children = (
@@ -126,7 +117,7 @@
 			children = (
 				AC31989A20E9A59000A6E741 /* AppDelegate.swift */,
 				AC0FE45520EC9D0E00D73AD8 /* SceneController.swift */,
-				AC0FE46620ECAD5900D73AD8 /* AppExtensions */,
+				AC8819BA20EDBFF8007202AC /* AppExtensions */,
 				AC0FE45B20ECA2DD00D73AD8 /* PokemonList */,
 				AC3198A320E9A59200A6E741 /* LaunchScreen.storyboard */,
 				AC3198A120E9A59200A6E741 /* Assets.xcassets */,
@@ -142,6 +133,15 @@
 				AC3198B120E9A59200A6E741 /* Info.plist */,
 			);
 			path = PokipediaTests;
+			sourceTree = "<group>";
+		};
+		AC8819BA20EDBFF8007202AC /* AppExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				AC0FE46220ECA68800D73AD8 /* NSObject+AppExtensions.swift */,
+				AC0FE46420ECAA2E00D73AD8 /* UIView+AppExtensions.swift */,
+			);
+			name = AppExtensions;
 			sourceTree = "<group>";
 		};
 		F5176D05AFA8F2F7124BD350 /* Frameworks */ = {
